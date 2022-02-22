@@ -1,0 +1,506 @@
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px;
+    font-family: "Gentium Book Basic", "serif";
+    background-color: #7C3A2A;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-family:"Gentium Book Basic", "serif";
+    align-items: center;
+    font-size: 34px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: "Pacifico", "cursive";
+    font-size: 60px;
+
+  }
+
+.under {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 21px;
+    padding: 30px;
+}
+.tupperware {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 5px; 
+  }
+.middle {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    font-style: italic;
+}
+
+.heroImg {
+    position: relative;
+    text-align:left;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.bottomLeft {
+    position: absolute;
+    top: 80%;
+    left: 62px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 30px;
+    width: 691px;
+    height: 225px;
+}
+.caseName {
+    position: relative;
+    text-align: center;
+    margin: 0px 0px;
+    background: #c8d0a3;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 45px;
+    font-family: "Pacifico", "cursive";
+    color:black;
+    font-size: 52px;
+}
+.item1 { grid-area: client; }
+.item2 { grid-area: service; }
+.item3 { grid-area: summary; }
+.item4 { grid-area: role; }
+.item5 { grid-area: tools; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'client client service service summary summary'
+    'role role tools tools summary summary';
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 5px;
+  table-layout: fixed;
+  border-spacing: 0px;
+  margin-left: auto;
+  font-family: "Gentium Book Basic", "serif";
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px 30px;
+  }
+.box-collection {
+    position: relative;
+    text-align: left;
+    color: black;
+    padding: 5px; 
+    padding-top: 40px;
+    width: 100%;
+    
+}
+
+.banner {
+  position: relative;
+  left: 418px;
+  top: 10px;
+  margin-bottom: 8px;
+  
+}
+.align {
+  font-family: "Pacifico", "cursive";
+  font-size: 54px;
+  font-style: normal;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+}
+.research-content1 {
+    position: absolute;
+    right: 15px;
+    top: 205x;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:593px;
+    width:45%;
+    background: lightgray;}
+.research-content2 {
+   margin-top: 50px;
+    position: absolute;
+    left: 15px;
+    top: 300x;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:155px;
+    width:45%;
+    background: lightgray;
+}
+.research-content3 {
+    position: relative;
+    left: 10px;
+    top: 250px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:593px;
+    width:45%;
+    background: lightgray;}
+
+/* .research-content4 {
+    position: relative;
+    right: 15px;
+    top: 885px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:257px;
+    width:45%;
+    background: lightgray;} */
+
+.parent {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.craft {
+  position: relative;
+  width: 100%
+}
+.amanda {
+  position: absolute;
+  width: 35%;
+  left: 10%;
+  top: 15%;
+  border-radius: 45px;
+}
+
+.Hi {
+  position: absolute;
+  color: black;
+  font-family: "Pacifico", "cursive";
+  left: 1500px;
+  bottom: 775px;
+  /* I have no idea what's happening here */
+  font-size: 48px;
+}
+  
+.bio {
+  position: absolute;
+  left: 50%;
+  top: 250px;
+  width: 550px;
+  height: 494px;
+  font-family: "Gentium Book Basic" , "serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  /* line-height: 29px; */
+  color: #000000;
+} */
+
+/* .button{
+  position: relative;
+  width: 256px;
+  height: 69px;
+  color: black;
+  font-style:italic;
+  font-family: "Gentium Book Basic", "cursive";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  border-radius: 45px;
+  background: rgba(139, 123, 68, 0.39);
+  border: none;
+} */
+
+
+.workHeader {
+  position: absolute;
+  align-items: center;
+}
+.workBanner {
+  width: 50%;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.northPole {
+    position: absolute;
+    left: 125%;
+    top: 2%;
+    font-family: "Pacifico", "cursive";
+    font-size: 60px;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* I'm almost positive that container is doing absolutely nothing */
+
+
+  .mnDNRparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+  .DNRbkg {
+    position: absolute;
+    top: 4600px;
+    left: 10px;
+  }
+
+  .DNRimg {
+    position: absolute;
+    top: 4720px;
+    left: 40px;
+  }
+
+  .project1 {
+    position: relative;
+    top: 1700px;
+    left: 370px;
+  }
+
+.dnrTXT1 {
+  font-size: 42px;
+  font-style: italic;
+  background: #767474;
+  border: 1px solid #A88E8E;
+  box-sizing: border-box;
+  border-radius: 45px;
+  color: white;
+  height: 114px;
+  width: 503px;
+  overflow-wrap: normal;
+  padding-top: 10px;
+  padding-right: 5px;
+  text-align:center;
+  font-family:"Gentium Book Basic", "cursive";
+} 
+
+.dnrTXT2 {
+  text-align:left;
+  font-family:"Gentium Book Basic", "cursive";
+  font-size: 32px;
+  height: 297px;
+  width: 498px;
+}
+.View1 {
+  position: absolute;
+  top: 550px;
+  left: 195px;
+}
+
+.project2 {
+  position: absolute;
+  top: 5200px;
+  left: 2%;
+}
+.marsTXT1 {
+  font-size: 42px;
+  font-style: italic;
+  background: #767474;
+  border: 1px solid #A88E8E;
+  box-sizing: border-box;
+  border-radius: 45px;
+  color: white;
+  height: 114px;
+  width: 503px;
+  overflow-wrap: normal;
+  padding-top: 10px;
+  padding-right: 5px;
+  text-align:center;
+  font-family:"Gentium Book Basic", "cursive";
+  left: 20px;
+}
+.marsTXT2 {
+  position: absolute;
+  top: 5380px;
+  left: 4%;
+  text-align:left;
+  font-family:"Gentium Book Basic", "cursive";
+  font-size: 32px;
+  height: 297px;
+  width: 498px;
+  overflow-wrap: normal;
+}
+.View2 {
+  position: absolute;
+  top: 5780px;
+  left: 195px;
+}
+
+.marsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+.MARSbkg {
+    position: absolute;
+    top: 5270px;
+    left: 855px;
+  }
+
+.marsImg {
+    position: absolute;
+    top: 5390px;
+    left: 920px;
+  }
+
+  .project3 {
+    position: absolute;
+    top: 5900px;
+    left: 870px;
+  }
+
+  .rxTXT1 {
+  font-size: 42px;
+  font-style: italic;
+  background: #767474;
+  border: 1px solid #A88E8E;
+  box-sizing: border-box;
+  border-radius: 45px;
+  color: white;
+  height: 114px;
+  width: 503px;
+  overflow-wrap: normal;
+  padding-top: 10px;
+  padding-right: 5px;
+  text-align:center;
+  font-family:"Gentium Book Basic", "cursive";
+  }
+  .rxTXT2 {
+    position: absolute;
+    top: 190px;
+    left: 4%;
+    text-align:left;
+    font-family:"Gentium Book Basic", "cursive";
+    font-size: 32px;
+    height: 297px;
+    width: 498px;
+    overflow-wrap: normal;
+  }
+  .View3 {
+    position: absolute;
+    top: 560px;
+    left: 195px;
+  }
+  .foodrxParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .foodRXbkg {
+    position: absolute;
+    top: 5990px;
+    left: 15px;
+  }
+
+  .FXimg {
+    position: relative;
+    top: 6035px;
+    left: 165px;
+  }
+
+  .project4 {
+    position: absolute;
+    top: 6600px;
+    left: 25px;
+  }
+
+  .ffhTXT1 {
+    font-size: 42px;
+    font-style: italic;
+    background: #767474;
+    border: 1px solid #A88E8E;
+    box-sizing: border-box;
+    border-radius: 45px;
+    color: white;
+    height: 114px;
+    width: 503px;
+    overflow-wrap: normal;
+    padding-top: 10px;
+    padding-right: 5px;
+    text-align:center;
+    font-family:"Gentium Book Basic", "cursive";
+    }
+  .ffhTXT2 {
+    position: absolute;
+    top: 6790px;
+    left: 3%;
+    text-align:left;
+    font-family:"Gentium Book Basic", "cursive";
+    font-size: 32px;
+    height: 297px;
+    width: 495px;
+    overflow-wrap: normal;
+  }
+.View4 {
+    position: absolute;
+    top: 7240px;
+    left: 195px;
+}
+.ffHParent {
+  position: absolute;
+    top: 6640px;
+    left: 855px;
+}
+
+/* On screens that are 600px or less, set the background color to wheat */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: wheat;
+  }
+}
+/* this also isn't working on github, but i'm okay with that */
+
+/* everything is so big!!!!! will fix later on */
+
